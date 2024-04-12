@@ -26,8 +26,8 @@ We start with a random noise vector and iteratively train the Generator and Disc
 ![Digit9_6qb](https://github.com/AishwaryaHastak/QGAN/assets/31357026/03c54562-0b46-4a6e-89ef-a53b9445890b)
 
 # Ongiong/Future Work
-The images are not clear and still have some noise in the background. Additionally, the images are very similar and we would like the generator to produce different-looking images. The next steps could be to experiment with the architecture (changing gate types, and adding more layers). We could also try using a quantum discriminator instead of a classical discriminator, to fully realize the quantum advantage.  
+The images are not clear and still have some noise in the background. Additionally, the images are very similar and we would like the generator to produce different-looking images. The next steps could be to experiment with the architecture (changing gate types and adding more layers). We could also try using a quantum discriminator instead of a classical discriminator, to fully realize the quantum advantage.  
 
 # References
 
-[1]Huang, He-Liang, et al. "Experimental quantum generative adversarial networks for image generation." Physical Review Applied 16.2 (2021): 024051.
+[1] Huang, He-Liang, et al. "Experimental quantum generative adversarial networks for image generation." Physical Review Applied 16.2 (2021): 024051.
