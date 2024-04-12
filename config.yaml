@@ -1,0 +1,41 @@
+BATCH_SIZE: 1
+IMAGE_SIZE: 28
+
+LR_G : 0.3         # Learning rate for the generator
+LR_D : 0.005       # Learning rate for the discriminator
+NUM_ITER : 500     # Number of iterations
+
+QUBITS_5:
+    N_QUBITS : 5        # Total number of qubits / N
+    N_A_QUBITS : 1      # Number of ancillary qubits / N_A
+    Q_DEPTH : 8         # Depth of the parameterised quantum circuit / D
+    N_GENERATORS : 56   # Number of subgenerators for the patch method / N_G
+    N_PIXELS : 14       # Number of pixles to consider in each patch 
+
+QUBITS_6:
+    N_QUBITS : 6        # Total number of qubits / N
+    N_A_QUBITS : 1      # Number of ancillary qubits / N_A
+    Q_DEPTH : 8         # Depth of the parameterised quantum circuit / D
+    N_GENERATORS : 28   # Number of subgenerators for the patch method / N_G
+    N_PIXELS : 28       # Number of pixles to consider in each patch 
+
+QUBITS_7:
+    N_QUBITS : 7        # Total number of qubits / N
+    N_A_QUBITS : 1      # Number of ancillary qubits / N_A
+    Q_DEPTH : 8         # Depth of the parameterised quantum circuit / D
+    N_GENERATORS : 14   # Number of subgenerators for the patch method / N_G
+    N_PIXELS : 56       # Number of pixles to consider in each patch 
+
+QUBITS_8:
+    N_QUBITS : 8        # Total number of qubits / N
+    N_A_QUBITS : 1      # Number of ancillary qubits / N_A
+    Q_DEPTH : 10         # Depth of the parameterised quantum circuit / D
+    N_GENERATORS : 7   # Number of subgenerators for the patch method / N_G
+    N_PIXELS : 112       # Number of pixles to consider in each patch 
+
+QUBITS_9:
+    N_QUBITS : 9        # Total number of qubits / N
+    N_A_QUBITS : 1      # Number of ancillary qubits / N_A
+    Q_DEPTH : 12         # Depth of the parameterised quantum circuit / D
+    N_GENERATORS : 4   # Number of subgenerators for the patch method / N_G
+    N_PIXELS : 196       # Number of pixles to consider in each patch 
