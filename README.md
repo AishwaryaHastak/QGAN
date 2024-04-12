@@ -2,7 +2,7 @@
 
 # Motivation
 
-SOTA Quantum Generative Adversarial Networks have trouble generating high-quality images and usually tend to use lower-resolution images. A lot of the recent QGANs use a smaller version (usually 8*8 or 16*16) version of the MNIST dataset. 
+SOTA Quantum Generative Adversarial Networks have trouble generating high-quality images and usually tend to use lower-resolution images. A lot of the recent QGANs use a smaller version (usually 8x8 or 16x16) version of the MNIST dataset. 
 We need the ability for GANs to be able to produce higher-quality images as well. 
 
 Additionally, we want the ability to generate images even when we have a limited number of available qubits to work with. In this project we try to adapt the PatchGAN [1] model to a larger dataset. 
